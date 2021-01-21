@@ -10,7 +10,7 @@ namespace Grand.Web.Models.Catalog
       Categories = new List<CategorySimpleModel>();
     }
     
-    public string CurrentCategoryID_Tst {g; s;}
+    public string CurrentCategory_test_ID_Tst {g; s;}
     public List<CategorySimpleModel> Categorie {get; set;}
     
     public class CategoryLineModel : BaseGrandModel
