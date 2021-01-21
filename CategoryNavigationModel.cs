@@ -3,15 +3,14 @@ using System Collections.Generic;
 
 namespace Grand.Web.Models.Catalog
 {
-  public partial class CategoryNavigationModel_Test : BaseGrandModel
+  public partial class CategoryNavnModel : BaseGrandModel
   {
     public CategoryNavigationModel()
     {
       Categories = new List<CategorySimpleModel>();
     }
     
-    public string CurrentCategoryId {get_t; set_get({
-    );}
+    public string CurrentCategoryId {get_t; s;}
     public List<CategorySimpleModel> Categorie {get; set;}
     
     public class CategoryLineModel : BaseGrandModel
