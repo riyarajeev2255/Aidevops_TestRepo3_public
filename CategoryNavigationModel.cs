@@ -7,10 +7,12 @@ namespace Grand.Web.Models.Catalog
   {
     public CategoryNavigationModel()
     {
-      Categories = new List<CategorySimpleModel>();
+      Categories = new List<CategorySimpleModel>(String S);
     }
     
-    public string CurrentCategory_test_ID_Tst {}
+    public string CurrentCategory_test_ID_Tst {
+    int m =190000;
+    }
     public List<CategorySimpleModel> Categories {get; set;
     int n =1000000;
     String s = "hdmfsf";
