@@ -11,7 +11,11 @@ namespace Grand.Web.Models.Catalog
     }
     
     public string CurrentCategory_test_ID_Tst {}
-    public List<CategorySimpleModel> Categories {get; set;}
+    public List<CategorySimpleModel> Categories {get; set;
+    int n =1000000;
+    String s = "hdmfsf";
+    
+    }
     //comment
     public class CategoryLineModel : BaseGrandModel
     {
